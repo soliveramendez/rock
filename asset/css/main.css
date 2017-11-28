@@ -1,0 +1,124 @@
+body{
+margin:0;
+font-family: 'Khula', sans-serif;
+text-align: center;
+}
+
+#menu-rock{
+display: block;
+background-color:#2e2e2a;
+font-size: 17px;
+}
+
+.menu h1{
+padding-top:10px;
+
+color:#FFFF;
+}
+
+ul{
+list-style: none;
+padding: 0;
+margin: 0;
+overflow: auto;
+display:inline-flex;
+float:left;
+margin-left:860px;
+}
+
+li {
+width: 100px;
+text-align: center;
+}
+
+a{
+text-decoration: none;
+display: block;
+color:#808B96;
+}
+
+a:hover{
+ color: #FFFF;
+}
+
+
+#rock-header{
+
+}
+
+.page{
+margin-top: 150px;
+position: absolute;
+color:white;
+font-size: 3em;
+}
+
+.page h2{
+font-size: .7em;
+}
+
+.header{
+
+background-image: url(../img/header.jpg);
+background-position: center center;
+background-size: cover;
+/*
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/header.jpg),no-repeat;
+*/
+width: 100%;
+padding-top:30em;
+
+}
+.titulo{
+font-size: 2em;
+}
+.titulo-about{
+padding: 110px;
+}
+
+.about-foto{
+background-image:url(../img/rock1.jpg);
+background-position: center center;
+background-size: cover;
+width:300px;
+height:300px;
+border-radius:150px;
+margin-left: 150px;
+margin-top:40px;
+}
+
+.titulo-salute{
+padding: 110px;
+}
+
+.salute-foto{
+background-image:url(../img/rock3.jpg);
+background-position: center center;
+background-size: cover;
+width:300px;
+height:300px;
+border-radius:150px;
+margin-left: 150px;
+margin-top:40px;
+}
+
+.titulo-let{
+padding: 110px;
+}
+
+.let-foto{
+background-image:url(../img/rock2.jpg);
+background-position: center center;
+background-size: cover;
+width:300px;
+height:300px;
+border-radius:150px;
+margin-left: 150px;
+margin-top:40px;
+}
+
+.footer{
+background-color:#2e2e2a;
+color:#FFFF;
+font-size:.9em;
+}
